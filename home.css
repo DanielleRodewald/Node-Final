@@ -1,0 +1,28 @@
+body {text-align: center;
+    background-image: url("fall-bg.jpg"); 
+    background-size: cover;}
+    p {width: 750px; margin: 0px auto; font-family: 'Times New Roman', Times, serif; font-size: 25px;}
+
+    h2{font-family: 'Times New Roman', Times, serif; font-size: 35px; color: rgb(209, 116, 10);} 
+    h3{ margin-top: -10px; text-align: left; margin-left: 50px;
+        font-family: 'Times New Roman', Times, serif; font-size: 30px; color: rgb(10, 163, 209);}
+
+li {list-style-type: none;  overflow: visible; display: inline; margin: 20px;}
+ 
+li .dropdown {visibility: hidden; }
+
+.link {border: 4px double rgb(179, 39, 39); 
+    text-decoration: none;  
+    width: 180px; height: 35px; 
+    line-height: 35px; 
+    display: inline-block; 
+    color: black; 
+    background-color:white; 
+    text-align: center; 
+    margin-left: -25px;}
+
+li:hover .dropdown {visibility: visible; }
+
+.dropdown a:hover{ transform:scale(1.1,1.1);}   
+
+#nav {background-image: url("istockphoto.jpg"); background-size:cover ; height: 80px;}
